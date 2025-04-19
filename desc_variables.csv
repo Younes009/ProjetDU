@@ -1,0 +1,163 @@
+Variable,Description
+NUM_POSTE,Numéro du poste Météo-France (8 chiffres)
+NOM_USUEL,Nom usuel du poste météorologique
+LAT,"Latitude du poste (en degrés décimaux, valeurs négatives pour l'hémisphère sud)"
+LON,"Longitude du poste (en degrés décimaux, valeurs négatives à l'ouest du méridien de Greenwich)"
+ALTI,"Altitude du poste, mesurée au pied de l'abri météorologique ou du pluviomètre (en mètres)"
+AAAAMM,"Mois et année des relevés (format AAAAMM, ex. 202301 pour janvier 2023)"
+RR,"Cumul mensuel des précipitations (en millimètres, avec une précision au dixième)"
+QRR,Code qualité associé au cumul des précipitations (indique la fiabilité des données)
+NBRR,Nombre de jours avec des mesures de précipitations disponibles pour le mois
+RR_ME,"Cumul mensuel estimé des précipitations (en millimètres, avec une précision au dixième)"
+RRAB,"Précipitation maximale enregistrée en 24 heures durant le mois (en millimètres, avec une précision au dixième)"
+QRRAB,Code qualité associé à la mesure RRAB
+RRABDAT,Jour où la valeur RRAB a été enregistrée
+NBJRR1,Nombre de jours dans le mois avec au moins 1 mm de précipitations
+NBJRR5,Nombre de jours dans le mois avec au moins 5 mm de précipitations
+NBJRR10,Nombre de jours dans le mois avec au moins 10 mm de précipitations
+NBJRR30,Nombre de jours dans le mois avec au moins 30 mm de précipitations
+NBJRR50,Nombre de jours dans le mois avec au moins 50 mm de précipitations
+NBJRR100,Nombre de jours dans le mois avec au moins 100 mm de précipitations
+PMERM,"Moyenne mensuelle de la pression atmosphérique au niveau de la mer (en hectopascals, avec une précision au dixième)"
+QPMERM,Code qualité associé à la moyenne mensuelle de la pression (PMERM)
+NBPMERM,Nombre de jours avec des mesures de pression disponibles durant le mois
+PMERMINAB,"Valeur minimale absolue de la pression atmosphérique au niveau de la mer mesurée durant le mois (en hectopascals, avec une précision au dixième)"
+QPMERMINAB,Code qualité associé à la pression minimale absolue (PMERMINAB)
+PMERMINABDAT,Date à laquelle la pression minimale absolue a été enregistrée
+TX,"Moyenne mensuelle des températures maximales quotidiennes (en °C, avec une précision au dixième)"
+QTX,Code qualité associé à la moyenne des températures maximales (TX)
+NBTX,Nombre de jours où des valeurs de température maximale sont disponibles
+TX_ME,"Moyenne mensuelle estimée des températures maximales quotidiennes (en °C, avec une précision au dixième)"
+TXAB,"Température maximale absolue enregistrée durant le mois (en °C, avec une précision au dixième)"
+QTXAB,Code qualité associé à la température maximale absolue (TXAB)
+TXDAT,Date à laquelle la température maximale absolue (TXAB) a été enregistrée
+TXMIN,"Température maximale minimale mensuelle (en °C, avec une précision au dixième)"
+QTXMIN,Code qualité associé à la température maximale minimale (TXMIN)
+TXMINDAT,Date à laquelle la température maximale minimale (TXMIN) a été enregistrée
+NBJTX0,Nombre de jours où la température maximale quotidienne est inférieure ou égale à 0 °C
+NBJTX25,Nombre de jours où la température maximale quotidienne est supérieure ou égale à 25 °C
+NBJTX30,Nombre de jours où la température maximale quotidienne est supérieure ou égale à 30 °C
+NBJTX35,Nombre de jours où la température maximale quotidienne est supérieure ou égale à 35 °C
+NBJTXI20,Nombre de jours où la température maximale quotidienne est inférieure ou égale à 20 °C
+NBJTXI27,Nombre de jours où la température maximale quotidienne est inférieure ou égale à 27 °C
+NBJTXS32,Nombre de jours où la température maximale quotidienne est supérieure ou égale à 32 °C
+TN,"Moyenne mensuelle des températures minimales quotidiennes (en °C, avec une précision au dixième)"
+QTN,Code qualité associé à la moyenne des températures minimales (TN)
+NBTN,Nombre de jours où des valeurs de température minimale sont disponibles
+TN_ME,"Moyenne mensuelle estimée des températures minimales quotidiennes (en °C, avec une précision au dixième)"
+TNAB,"Température minimale absolue enregistrée durant le mois (en °C, avec une précision au dixième)"
+QTNAB,Code qualité associé à la température minimale absolue (TNAB)
+TNDAT,Date à laquelle la température minimale absolue (TNAB) a été enregistrée
+TNMAX,"Température minimale maximale mensuelle (en °C, avec une précision au dixième)"
+QTNMAX,Code qualité associé à la température minimale maximale (TNMAX)
+TNMAXDAT,Date à laquelle la température minimale maximale (TNMAX) a été enregistrée
+NBJTN5,Nombre de jours où la température minimale quotidienne est inférieure ou égale à -5 °C
+NBJTN10,Nombre de jours où la température minimale quotidienne est inférieure ou égale à -10 °C
+NBJTNI10,Nombre de jours où la température minimale quotidienne est inférieure ou égale à +10 °C
+NBJTNI15,Nombre de jours où la température minimale quotidienne est inférieure ou égale à +15 °C
+NBJTNI20,Nombre de jours où la température minimale quotidienne est inférieure ou égale à +20 °C
+NBJTNS20,Nombre de jours où la température minimale quotidienne est supérieure ou égale à +20 °C
+NBJTNS25,Nombre de jours où la température minimale quotidienne est supérieure ou égale à +25 °C
+NBJGELEE,Nombre de jours avec gelée (températures minimales inférieures à 0 °C)
+TAMPLIM,"Moyenne mensuelle des amplitudes thermiques quotidiennes (écarts entre températures maximale et minimale, en °C, avec une précision au dixième)"
+QTAMPLIM,Code qualité associé à la moyenne des amplitudes thermiques (TAMPLIM)
+TAMPLIAB,"Valeur maximale absolue des amplitudes thermiques enregistrée durant le mois (en °C, avec une précision au dixième)"
+QTAMPLIAB,Code qualité associé à l’amplitude thermique maximale absolue (TAMPLIAB)
+TAMPLIABDAT,Date à laquelle l’amplitude thermique maximale absolue (TAMPLIAB) a été enregistrée
+NBTAMPLI,Nombre de jours où des données d’amplitude thermique sont disponibles
+TM,"Moyenne mensuelle des températures quotidiennes moyennes (calculée comme la moyenne de TN et TX, en °C, avec une précision au dixième)"
+QTM,Code qualité associé à la moyenne des températures quotidiennes moyennes (TM)
+NBTM,"Nombre de jours où des données pour le couple (TN, TX) sont disponibles"
+TMM,"Moyenne mensuelle des températures quotidiennes moyennes (en °C, avec une précision au dixième)"
+QTMM,Code qualité associé à la moyenne mensuelle des températures quotidiennes moyennes (TMM)
+NBTMM,Nombre de jours où des températures moyennes quotidiennes sont disponibles
+NBJTMS24,Nombre de jours où la température moyenne quotidienne est supérieure ou égale à 24 °C
+TMMIN,"Température moyenne minimale mensuelle (en °C, avec une précision au dixième)"
+QTMMIN,Code qualité associé à la température moyenne minimale (TMMIN)
+TMMINDAT,Date à laquelle la température moyenne minimale (TMMIN) a été enregistrée
+TMMAX,"Température moyenne maximale mensuelle (en °C, avec une précision au dixième)"
+QTMMAX,Code qualité associé à la température moyenne maximale (TMMAX)
+TMMAXDAT,Date à laquelle la température moyenne maximale (TMMAX) a été enregistrée
+UNAB,Minimum absolu mensuel des humidités relatives minimales quotidiennes (UN).
+QUNAB,Code qualité du minimum absolu mensuel des humidités minimales (UN).
+UNABDAT,Jour du minimum absolu mensuel des humidités minimales (UN).
+NBUN,Nombre de valeurs disponibles pour l'humidité minimale quotidienne (UN).
+UXAB,Maximum absolu mensuel des humidités relatives maximales quotidiennes (UX).
+QUXAB,Code qualité du maximum absolu mensuel des humidités maximales (UX).
+UXABDAT,Jour du maximum absolu mensuel des humidités maximales (UX).
+NBUX,Nombre de valeurs disponibles pour l'humidité maximale quotidienne (UX).
+UMM,Moyenne mensuelle des humidités relatives quotidiennes moyennes (UM).
+QUMM,Code qualité de la moyenne mensuelle des humidités quotidiennes moyennes (UM).
+NBUM,Nombre de valeurs disponibles pour l'humidité moyenne quotidienne (UM).
+TSVM,"Moyenne mensuelle de la tension de vapeur (TSV, en hPa et 1/10, représentant la pression partielle de la vapeur d'eau dans l'air)."
+QTSVM,Code qualité de la moyenne mensuelle de la tension de vapeur (TSV).
+NBTSVM,Nombre de valeurs disponibles pour la tension de vapeur quotidienne (TSV).
+ETP,"Somme des ETP Penman décennaires (en mm et 1/10, représentant l'évapotranspiration potentielle)."
+QETP,Code qualité de l'évapotranspiration potentielle (ETP).
+FXIAB,"Maximum absolu mensuel de la force maximale quotidienne du vent instantané, à 10 m (FXI, en m/s et 1/10)."
+QFXIAB,Code qualité de la force maximale quotidienne du vent instantané (FXIAB).
+DXIAB,"Direction de la force maximale quotidienne du vent instantané (FXIAB, en degrés, sur une rose des vents à 360°)."
+QDXIAB,Code qualité de la direction du vent instantané (DXIAB).
+FXIDAT,Jour de la force maximale quotidienne du vent instantané (FXIAB).
+NBJFF10,Nombre de jours où la force du vent instantané (FXI) est supérieure ou égale à 10 m/s.
+NBJFF16,Nombre de jours où la force du vent instantané (FXI) est supérieure ou égale à 16 m/s.
+NBJFF28,Nombre de jours où la force du vent instantané (FXI) est supérieure ou égale à 28 m/s.
+NBFXI,Nombre de valeurs disponibles pour la force du vent instantané quotidienne (FXI).
+FXI3SAB,"Maximum absolu mensuel de la force maximale quotidienne du vent moyenné sur 3 secondes, à 10 m (FXI3S, en m/s et 1/10)."
+QFXI3SAB,Code qualité de la force maximale quotidienne du vent moyenné sur 3 secondes (FXI3SAB).
+DXI3SAB,"Direction associée à la force maximale quotidienne du vent moyenné sur 3 secondes (FXI3SAB, en degrés, sur une rose des vents à 360°)."
+QDXI3SAB,Code qualité de la direction associée à la force maximale quotidienne du vent moyenné sur 3 secondes (DXI3SAB).
+FXI3SDAT,Jour de la force maximale quotidienne du vent moyenné sur 3 secondes (FXI3SAB).
+NBJFXI3S10,Nombre de jours où la force du vent moyennée sur 3 secondes (FXI3S) est supérieure ou égale à 10 m/s.
+NBJFXI3S16,Nombre de jours où la force du vent moyennée sur 3 secondes (FXI3S) est supérieure ou égale à 16 m/s.
+NBJFXI3S28,Nombre de jours où la force du vent moyennée sur 3 secondes (FXI3S) est supérieure ou égale à 28 m/s.
+NBFXI3S,Nombre de valeurs disponibles pour la force du vent moyennée sur 3 secondes quotidienne (FXI3S).
+FXYAB,"Maximum absolu mensuel de la force maximale quotidienne du vent moyenné sur 10 minutes, à 10 m (FXY, en m/s et 1/10)."
+QFXYAB,Code qualité de la force maximale quotidienne du vent moyenné sur 10 minutes (FXYAB).
+DXYAB,"Direction associée à la force maximale quotidienne du vent moyenné sur 10 minutes (FXYAB, en degrés, sur une rose des vents à 360°)."
+QDXYAB,Code qualité de la direction associée à la force maximale quotidienne du vent moyenné sur 10 minutes (DXYAB).
+FXYABDAT,Jour de la force maximale quotidienne du vent moyenné sur 10 minutes (FXYAB).
+NBJFXY8,Nombre de jours où la force du vent moyennée sur 10 minutes (FXY) est supérieure ou égale à 8 m/s.
+NBJFXY10,Nombre de jours où la force du vent moyennée sur 10 minutes (FXY) est supérieure ou égale à 10 m/s.
+NBJFXY15,Nombre de jours où la force du vent moyennée sur 10 minutes (FXY) est supérieure ou égale à 15 m/s.
+NBFXY,Nombre de valeurs disponibles pour la force du vent moyennée sur 10 minutes quotidienne (FXY).
+FFM,"Moyenne mensuelle de la force moyenne quotidienne du vent moyennée sur 10 minutes, à 10 m (FFM, en m/s et 1/10)."
+QFFM,Code qualité de la force moyenne quotidienne du vent moyennée sur 10 minutes (FFM).
+NBFFM,Nombre de valeurs disponibles pour la force moyenne quotidienne du vent moyennée sur 10 minutes (FFM).
+INST,Cumul mensuel des durées totales d'insolation quotidiennes (en minutes).
+QINST,Code qualité du cumul mensuel des durées d'insolation quotidiennes (INST).
+NBINST,Nombre de valeurs disponibles pour l'insolation quotidienne (INST).
+NBSIGMA0,Nombre de jours avec un pourcentage d'insolation égal à 0% (SIGMA est la fraction d'insolation par rapport à la durée du jour).
+NBSIGMA20,Nombre de jours avec un pourcentage d'insolation inférieur ou égal à 20% (SIGMA).
+NBSIGMA80,Nombre de jours avec un pourcentage d'insolation supérieur ou égal à 80% (SIGMA).
+GLOT,Cumul mensuel du rayonnement global quotidien (en J/cm²).
+QGLOT,Code qualité du rayonnement global quotidien (GLOT).
+NBGLOT,Nombre de valeurs disponibles pour le rayonnement global quotidien (GLOT).
+DIFT,Cumul mensuel du rayonnement diffus quotidien (en J/cm²).
+QDIFT,Code qualité du rayonnement diffus quotidien (DIFT).
+NBDIFT,Nombre de valeurs disponibles pour le rayonnement diffus quotidien (DIFT).
+DIRT,Cumul mensuel du rayonnement direct quotidien (en J/cm²).
+QDIRT,Code qualité du rayonnement direct quotidien (DIRT).
+NBDIRT,Nombre de valeurs disponibles pour le rayonnement direct quotidien (DIRT).
+HNEIGEFTOT,Cumul mensuel de la hauteur de neige fraîche tombée en 24 h (en cm).
+QHNEIGEFTOT,Code qualité du cumul mensuel de neige fraîche (HNEIGEFTOT).
+HNEIGEFAB,Maximum absolu mensuel de la hauteur de neige fraîche tombée en 24 h (en cm).
+QHNEIGEFAB,Code qualité du maximum absolu mensuel de neige fraîche (HNEIGEFAB).
+HNEIGEFDAT,Jour du maximum absolu mensuel de neige fraîche tombée (HNEIGEFAB).
+NBHNEIGEF,Nombre de valeurs disponibles pour les chutes de neige quotidienne (HNEIGEF).
+NBJNEIG,Nombre de jours avec des précipitations de neige.
+NBJHNEIGEF1,Nombre de jours avec des chutes de neige en 24 h supérieures à 1 cm.
+NBJHNEIGEF5,Nombre de jours avec des chutes de neige en 24 h supérieures à 5 cm.
+NBJHNEIGEF10,Nombre de jours avec des chutes de neige en 24 h supérieures à 10 cm.
+NBJSOLNG,Nombre de jours avec un sol couvert de neige.
+NEIGETOTM,Moyenne mensuelle de l'épaisseur totale de neige mesurée quotidiennement à 6 h (en cm).
+QNEIGETOTM,Code qualité de la moyenne mensuelle de l'épaisseur totale de neige (NEIGETOTM).
+NEIGETOTAB,Maximum absolu mensuel de l'épaisseur maximale de neige mesurée quotidiennement (en cm).
+QNEIGETOTAB,Code qualité du maximum absolu mensuel de l'épaisseur de neige (NEIGETOTAB).
+NEIGETOTABDAT,Jour du maximum absolu mensuel de l'épaisseur de neige (NEIGETOTAB).
+NBJNEIGETOT1,Nombre de jours avec une épaisseur de neige supérieure à 1 cm.
+NBJNEIGETOT10,Nombre de jours avec une épaisseur de neige supérieure à 10 cm.
+NBJNEIGETOT30,Nombre de jours avec une épaisseur de neige supérieure à 30 cm.
+NBJGREL,Nombre de jours avec des chutes de grêle.
+NBJORAG,Nombre de jours avec des orages.
+NBJBROU,Nombre de jours avec du brouillard.
